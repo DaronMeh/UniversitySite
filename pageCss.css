@@ -138,29 +138,35 @@ transition: all 1s;
 
 
 
-@media (min-width: 0px) and (max-width:550px){
-    .displayWrap{
-        font-size: .3em;
+ @media (min-width: 0px) and (max-width:620px){
+        .displayWrap{
+            font-size: .5em;
+        }
+    
+        section{
+            max-width: 140vh;
+        }
+    
+        section h2{
+            font-size: 1.7em;
+        }
+    
+        section h1{
+            font-size: 3em;
+        }
+        .logo img{
+            object-fit: cover;
+            width: 6em;
+            padding-right: 10px;
+            height: 4em;
+        }
+    
+        section p{
+            width: 70%;
+            position: relative;
+            font-size: 1.5em;}
     }
-
-    section{
-        max-width: 100vh;
-    }
-
-    section h2{
-        font-size: 1.7em;
-    }
-
-    section h1{
-        font-size: 3em;
-    }
-
-    section p{
-        width: 70%;
-        position: relative;
-        font-size: 1.5em;
-    }
-}
+    
 
     @media (min-width: 551px) and (max-width:620px){
         .displayWrap{
