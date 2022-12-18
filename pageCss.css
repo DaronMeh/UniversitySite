@@ -47,6 +47,7 @@ body{
 }
 
 
+
 section{
     font-family: 'Montserrat', sans-serif;
     top: 100vh;
@@ -54,6 +55,7 @@ section{
     display: grid;
     align-content: center;
     min-height: 100vh;
+    transition: 400ms ease-in-out;
 }
 
 section h2{
@@ -82,7 +84,6 @@ section p {
 
 section p span {
     color: #D76F30;
-    text-shadow: 0 0 10px #D76F30;
 }
 
 .logo img{
@@ -90,6 +91,14 @@ section p span {
     width: 190px;
     padding-right: 10px;
     height: 100px;
+}
+
+img:hover{
+    transform: scale(.9);
+}
+
+a:hover span{
+    text-shadow: 0 0 10px #D76F30;
 }
 
 .imageWrap{
