@@ -1,0 +1,194 @@
+
+/**Mont**/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+/**Roboto**/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body{
+    height: 500vh;
+    background-color: #172D13;
+}
+
+
+
+
+
+
+
+
+/**Display Text**/
+
+.displayWrap h2{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 50%;
+    left:50%;
+    font-size: 6em;
+    transform: translate(-50%, -50%) !important;
+    width: 100%;
+    text-align: center;
+    color:#fff;
+
+}
+
+.displayWrap h2 span{
+    color: #D76F30;
+}
+
+
+section{
+    font-family: 'Montserrat', sans-serif;
+    top: 100vh;
+    position: relative;
+    display: grid;
+    align-content: center;
+    min-height: 100vh;
+}
+
+section h2{
+    align-content: center;
+    color: #fff;
+    place-items:left;
+    font-size: 2.2em;
+    max-width: 150vh;
+}
+
+section h1{
+    color:#6BB77B;
+    place-items:left;
+    font-size: 5em;
+    max-width: 120vh;
+
+}
+
+section p {
+    margin-top: 20px;
+    place-items: center;
+    color: #fff;
+    font-size: 2em;
+    max-width: 120vh;
+}
+
+section p span {
+    color: #D76F30;
+    text-shadow: 0 0 10px #D76F30;
+}
+
+.logo img{
+    object-fit: cover;
+    width: 190px;
+    padding-right: 10px;
+    height: 100px;
+}
+
+.imageWrap{
+    margin-top: 88px;
+   display: flex;
+   width: 100%;
+}
+
+.logo:nth-child(2){
+    transition-delay: 200ms;
+}
+
+.logo:nth-child(3){
+    transition-delay: 400ms;
+}
+
+.logo:nth-child(4){
+    transition-delay: 600ms;
+}
+
+
+
+
+.hidden{
+opacity: 0;
+filter: blur(5px);
+transform: translateX(-100%);
+transition: all 1s;
+}
+
+@media(prefers-reduced-motion){
+    .hidden{
+        transform: none;
+    }
+
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+
+
+
+
+@media (min-width: 500px) and (max-width:550px){
+    .displayWrap{
+        font-size: .3em;
+    }
+
+    section{
+        max-width: 100vh;
+    }
+
+    section h2{
+        font-size: 1.7em;
+    }
+
+    section h1{
+        font-size: 3em;
+    }
+
+    section p{
+        width: 70%;
+        position: relative;
+        font-size: 1.5em;
+    }
+}
+
+    @media (min-width: 551px) and (max-width:620px){
+        .displayWrap{
+            font-size: .5em;
+        }
+    
+        section{
+            max-width: 140vh;
+        }
+    
+        section h2{
+            font-size: 1.7em;
+        }
+    
+        section h1{
+            font-size: 3em;
+        }
+    
+        section p{
+            width: 70%;
+            position: relative;
+            font-size: 1.5em;}
+    }
+    
+    @media (min-width: 621px) and (max-width:700px){
+     
+    }
+
+    @media (min-width: 701px) and (max-width:790px){
+    }
+    
