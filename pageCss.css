@@ -54,7 +54,7 @@ section{
     position: relative;
     display: grid;
     align-content: center;
-    min-height: 100vh;
+    min-height: 120vh;
     transition: 400ms ease-in-out;
 }
 
@@ -140,6 +140,10 @@ transition: all 1s;
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+
+.duringUni{
+    margin-top: 40vh;
 }
 
 
