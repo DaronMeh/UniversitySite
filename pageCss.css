@@ -316,8 +316,12 @@ transition: all 1s;
         }
 
         nav{
-            font-size: .4rem;
+            font-size: .5rem;
             margin-right: -10em;
+        }
+
+        nav span{
+            font-size: .4rem;
         }
 
         .footerList{
@@ -325,6 +329,10 @@ transition: all 1s;
             font-size: .4rem;
             margin-left: -10em;
             margin-right: -10em;
+        }
+
+        .footerList span{
+            font-size: .4rem;
         }
 
         .displayWrap{
