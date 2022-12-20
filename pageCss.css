@@ -48,6 +48,10 @@ nav {
     text-decoration: none;
     color:#fff;
   }
+
+  nav span{
+    color: #D76F30;
+  }
   
   nav a:hover {
     color: #D76F30;;
@@ -200,6 +204,40 @@ footer{
     max-width: 120vh;
     transition: 400ms ease-in-out;
 }
+
+.footerList{
+    width: 100%;
+    font-size: .5em;
+    border-top: solid #fff;
+    text-decoration: none;
+    color:#fff;
+}
+.footerList ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footerList li {
+    margin-top: 1em;
+    margin-right: 5em;
+    display: inline-block;
+    color:#fff;
+  }
+
+  .footerList a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color:#fff;
+  }
+  
+  .footerList a:hover {
+    color: #D76F30;;
+  }
+
+
+
 
 footer p span {
     color: #D76F30;
