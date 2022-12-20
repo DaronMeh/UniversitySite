@@ -326,14 +326,11 @@ transition: all 1s;
 
         .footerList{
             left:0;
-            font-size: .5rem;
+            font-size: .65rem;
             margin-left: -10em;
             margin-right: -10em;
         }
 
-        .footerList span{
-            font-size: .7rem;
-        }
         .displayWrap{
             font-size: .5em;
         }
