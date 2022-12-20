@@ -308,14 +308,15 @@ transition: all 1s;
 
 
 
- @media (min-width: 0px) and (max-width:690px){
+ @media (min-width: 0px) and (max-width:700px){
        
         body{
             height: 600vh;
         }
 
         nav{
-            font-size: .7em;
+            font-size: .5em;
+            margin-right: -5.6em;
         }
 
         .displayWrap{
