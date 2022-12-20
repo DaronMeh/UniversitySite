@@ -316,13 +316,13 @@ transition: all 1s;
         }
 
         nav{
-            font-size: .5em;
-            margin-right: -5.6em;
+            font-size: .5rem;
+            margin-right: -10em;
         }
 
         .footerList{
             left:0;
-            font-size: .3em;
+            font-size: .5rem;
             margin-right: -10em;
         }
 
