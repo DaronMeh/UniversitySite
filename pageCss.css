@@ -16,7 +16,7 @@
 
 
 body{
-    height: 500vh;
+    height: 100vh;
     background-color: #172D13;
 }
 
@@ -206,7 +206,7 @@ footer{
 }
 
 .footerList{
-    left:0;
+    padding: 10px;
     width: 100%;
     font-size: .5em;
     border-top: solid #fff;
@@ -312,7 +312,7 @@ transition: all 1s;
  @media (min-width: 0px) and (max-width:700px){
        
         body{
-            height: 600vh;
+            height: 100vh;
         }
 
         nav{
@@ -323,6 +323,7 @@ transition: all 1s;
         .footerList{
             left:0;
             font-size: .5rem;
+            margin-left: -10em;
             margin-right: -10em;
         }
 
