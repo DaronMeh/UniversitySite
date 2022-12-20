@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://www.surviveuni.com</loc>
+		<priority>1.00</priority>
+		<lastmod>2022-12-20</lastmod>
+	</url>
+	<url>
+		<loc>https://www.surviveuni.com/whyChoose.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-12-20</lastmod>
+	</url>
+	<url>
+		<loc>https://www.surviveuni.com/welcomeUni.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-12-20</lastmod>
+	</url>
+	<url>
+		<loc>https://www.surviveuni.com/uniOverview.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-12-20</lastmod>
+	</url>
+</urlset>
