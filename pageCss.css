@@ -206,6 +206,7 @@ footer{
 }
 
 .footerList{
+    left:0;
     width: 100%;
     font-size: .5em;
     border-top: solid #fff;
@@ -317,6 +318,12 @@ transition: all 1s;
         nav{
             font-size: .5em;
             margin-right: -5.6em;
+        }
+
+        .footerList{
+            left:0;
+            font-size: .3em;
+            margin-right: -10em;
         }
 
         .displayWrap{
