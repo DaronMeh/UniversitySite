@@ -316,23 +316,20 @@ transition: all 1s;
         }
 
         nav{
-            font-size: .5rem;
+            font-size: .65rem;
             margin-right: -10em;
         }
 
         nav span{
-            font-size: .4rem;
+            font-size: .7rem;
+            left: -100vh;
         }
 
         .footerList{
             left:0;
-            font-size: .4rem;
+            font-size: .7rem;
             margin-left: -10em;
             margin-right: -10em;
-        }
-
-        .footerList span{
-            font-size: .4rem;
         }
 
         .displayWrap{
