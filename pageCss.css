@@ -24,7 +24,34 @@ body{
 
 
 
-
+/**Nav**/
+nav {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 5.5em;
+    display: inline-block;
+    color:#fff;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color:#fff;
+  }
+  
+  nav a:hover {
+    color: #D76F30;;
+  }
 
 
 /**Display Text**/
@@ -56,6 +83,26 @@ section{
     align-content: center;
     min-height: 120vh;
     transition: 400ms ease-in-out;
+}
+
+header{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    font-size: 6em;
+    transform: translate(-50%, -50%) !important;
+    width: 100%;
+    text-align: center;
+    color:#D76F30;;
+    font-family: 'Montserrat', sans-serif;
+    align-content: center;
+    font-size: 2.2em;
+    max-width: 150vh;
+}
+
+header p{
+    color: #fff;
+    font-size: 1em;
 }
 
 section h2{
@@ -93,6 +140,23 @@ section p span {
     height: 100px;
 }
 
+.recents p{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.5em;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.recents p:hover{
+    color: #D76F30;
+}
+
+
+
+
+
+
 img:hover{
     transform: scale(.9);
 }
@@ -118,6 +182,57 @@ a:hover span{
 .logo:nth-child(4){
     transition-delay: 600ms;
 }
+
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30vh;
+    place-items: center;
+    color: #fff;
+    font-style: italic;
+    font-size: 1.7em;
+    max-width: 120vh;
+    top: 50vh;
+    position: relative;
+    display: grid;
+    align-content: center;
+    min-height: 120vh;
+    max-width: 120vh;
+    transition: 400ms ease-in-out;
+}
+
+footer p span {
+    color: #D76F30;
+}
+
+#aboutMe{
+    font-size: .8em;
+    font-style: italic;
+}
+
+#aboutMe img{
+    max-width: 70vh;
+    max-height: fit-content;
+    margin: 4vh 0;
+}
+
+
+
+.listingStuff{
+    font-size: 1em;
+}
+
+.listingStuff ul>li{
+    margin-top: 20vh;
+}
+
+.seperation{
+    margin-top: 50vh;
+    color: #D76F30;
+    text-align: center;
+}
+
+
 
 
 
@@ -155,11 +270,16 @@ transition: all 1s;
 
 
 
- @media (min-width: 0px) and (max-width:620px){
+ @media (min-width: 0px) and (max-width:690px){
        
         body{
             height: 600vh;
         }
+
+        nav{
+            font-size: .7em;
+        }
+
         .displayWrap{
             font-size: .5em;
         }
@@ -192,34 +312,4 @@ transition: all 1s;
             }
     }
     
-
-    @media (min-width: 551px) and (max-width:620px){
-        .displayWrap{
-            font-size: .5em;
-        }
-    
-        section{
-            max-width: 140vh;
-        }
-    
-        section h2{
-            font-size: 1.7em;
-        }
-    
-        section h1{
-            font-size: 2em;
-        }
-    
-        section p{
-            width: 70%;
-            position: relative;
-            font-size: 1.5em;}
-    }
-    
-    @media (min-width: 621px) and (max-width:700px){
-     
-    }
-
-    @media (min-width: 701px) and (max-width:790px){
-    }
     
