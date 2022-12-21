@@ -20,6 +20,10 @@ body{
     background-color: #172D13;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 
 
