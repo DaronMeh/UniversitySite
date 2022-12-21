@@ -306,12 +306,13 @@ transition: all 1s;
 .show{
     opacity: 1;
     filter: blur(0);
-    transform: translateX(0);
+    transform: translateX(1%);
 }
 
 .duringUni{
     margin-top: 40vh;
 }
+
 
 .ads{
     margin-top: -40vh;
@@ -347,6 +348,19 @@ transition: all 1s;
         .displayWrap{
             font-size: .5em;
         }
+
+
+.logo:nth-child(2){
+    transition-delay: 0ms;
+}
+
+.logo:nth-child(3){
+    transition-delay: 0ms;
+}
+
+.logo:nth-child(4){
+    transition-delay: 0ms;
+}
     
         section{
             max-width: 140vh;
