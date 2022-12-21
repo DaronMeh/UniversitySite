@@ -143,7 +143,7 @@ section p span {
 
 .logo img{
     object-fit: cover;
-    width: 190px;
+    width: 170px;
     padding-right: 10px;
     height: 100px;
 }
@@ -183,7 +183,7 @@ a:hover span{
 .imageWrap{
     margin-top: 4em;
     display: grid;
-    width: 100%;
+    max-width: 70%;
     grid-template-columns: repeat(auto-fit, minmax(5em, auto));
     gap:2em 5em;
 }
