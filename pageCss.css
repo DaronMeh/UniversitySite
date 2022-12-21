@@ -174,9 +174,11 @@ a:hover span{
 }
 
 .imageWrap{
-    margin-top: 88px;
-   display: flex;
-   width: 100%;
+    margin-top: 4em;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(5em, auto));
+    gap:2em 5em;
 }
 
 .logo:nth-child(2){
@@ -350,12 +352,8 @@ transition: all 1s;
         section h1{
             font-size: 3em;
         }
-        .logo img{
-            object-fit: cover;
-            width: 6em;
-            padding-right: 10px;
-            height: 4em;
-        }
+
+
     
         section p{
             width: 70%;
