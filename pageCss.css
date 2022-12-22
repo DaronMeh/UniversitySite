@@ -350,6 +350,15 @@ transition: all 1s;
         }
 
 
+.imageWrap{
+    margin-top: 4em;
+    display: grid;
+    max-width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(6em, auto));
+    gap:4em 6em;
+}
+
+
 .logo:nth-child(2){
     transition-delay: 0ms;
 }
