@@ -3,21 +3,21 @@
 	<url>
 		<loc>https://surviveuni.com/index.html</loc>
 		<priority>1.00</priority>
-		<lastmod>2022-12-20</lastmod>
-	</url>
-	<url>
-		<loc>https://surviveuni.com/whyChoose.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-10-19</lastmod>
-	</url>
-	<url>
-		<loc>https://surviveuni.com/welcomeUni.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-10-19</lastmod>
+		<lastmod>2022-11-11</lastmod>
 	</url>
 	<url>
 		<loc>https://surviveuni.com/uniOverview.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2022-10-19</lastmod>
+		<lastmod>2022-12-21</lastmod>
+	</url>
+	<url>
+		<loc>https://surviveuni.com/welcomeUni.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-12-25</lastmod>
+	</url>
+	<url>
+		<loc>https://surviveuni.com/whyChoose.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-12-29</lastmod>
 	</url>
 </urlset>
